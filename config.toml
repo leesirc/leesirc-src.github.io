@@ -65,7 +65,9 @@ summaryLength = 140
   url = "https://www.aliyun.com/acts/limit-buy?userCode=jdg9oj97"
   img = "https://img.alicdn.com/tfs/TB1hblJl7Y2gK0jSZFgXXc5OFXa-750-400.jpg"
 
-## 配置 utteranc评论,教程参考 https://utteranc.es/
+## 配置 utteranc评论,教程参考 
+# https://utteranc.es/
+# https://nusr.github.io/post/2019/2019-05-04-utterances-introduce/
 [params.utteranc]
   enable = true
   repo = "leesirc/leesirc-comment.github.io" ##换成自己得
