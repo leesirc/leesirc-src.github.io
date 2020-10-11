@@ -9,10 +9,12 @@ preserveTaxonomyNames = true
 ## 是否禁止URL Path转小写
 disablePathToLower = true
 
+## 自定义文章摘要
+### 默认是70
 hasCJKLanguage = true
 summaryLength = 140
 
-disqusShortname = "leesirc"  ## 是否开启disqus评论，不要和utteranc同时开启
+# disqusShortname = "leesirc"  ## 是否开启disqus评论，不要和utteranc同时开启
 
 [author]
   name = "leesirc"
@@ -84,27 +86,24 @@ disqusShortname = "leesirc"  ## 是否开启disqus评论，不要和utteranc同�
     Host = "https://cdn.jsdelivr.net/gh/leesirc/leesirc.github.io"
 
 ## 配置代码高亮
-[markup]
-  [markup.highlight]
-    lineNos = true
-    style = "github"
+# 我采用的是默认的, 若要开启行号参考下面配置
+# [markup]
+#  [markup.highlight]
+#    lineNos = true
+#    style = "github"
 
 ## 配置网站菜单
-
 [menu]
-
   [[menu.main]]
     identifier = "tools"
     name = "工具"
     url = "/tools/"
     weight = 2
-
   [[menu.main]]
     identifier = "archives"
     name = "归档"
     url = "/archives/"
     weight = 3
-
   [[menu.main]]
     identifier = "about"
     name = "关于"
