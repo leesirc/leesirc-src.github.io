@@ -68,7 +68,7 @@ summaryLength = 140
 ## 配置 utteranc评论,教程参考 https://utteranc.es/
 [params.utteranc]
   enable = true
-  repo = "https://leesirc.github.com" ##换成自己得
+  repo = "leesirc/leesirc-comment.github.io" ##换成自己得
   issueTerm = "pathname"
   theme = "github-light"
 
