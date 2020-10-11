@@ -184,8 +184,8 @@ func (c *Color) SprintfFunc() func(format string, a ...interface{}) string {
 ```shell
 1.闭包的用法
 2.map是引用类型
-3.切片转string: strings.join(slice,";")
-4.int转string: strconv.itoa
+3.切片转string: strings.Join(slice,";")
+4.int转string: strconv.Itoa(<int>)
 ```
 
 ## 简单使用
