@@ -15,7 +15,8 @@ GIT点点滴滴
 ## what
 
 今天在使用`git clone`一个public类型的SSH协议仓库时, 却始终clone 失败, 让同事帮忙尝试克隆, 发现同事没问题, 百思不得其解。。。
-```
+
+```shell
 git@github.com: Permission denied (publickey).
 fatal: 无法读取远程仓库。
 
@@ -30,15 +31,22 @@ fatal: 无法读取远程仓库。
 + ~/.gitconfig
 
 后来听了一个同事想法, 才突然明白GIT SSH的工作原理:
-+ 用户A`git clone`用户B的public类型SSH仓库:
+
+​		用户A`git clone`用户B的public类型SSH仓库:
+
+```shell
 1. 通过ssh鉴权github用户, 即默认通过公私钥`id和id.pub`认证github用户
 2. 认证成功后, 此时用户A作为一个github用户方可`git clone`用户B的public类型SSH仓库
 
+```
 
-+ 用户A`git clone`用户B的 private类型SSH仓库:
+​		用户A`git clone`用户B的 private类型SSH仓库:
+
+```shell
 1. 通过ssh鉴权github用户, 即默认通过公私钥`id和id.pub`认证github用户
 2. 用户B上进行相关设置, 允许用户进行`git clone`相关操作, 比如加上用户的公钥等
 3. 此时用户A作为一个github用户方可`git clone`用户B的 private类型SSH仓库
+```
 
 而自己之所以没有成功, 是因为自己的`git ssh key`没有用默认的公私钥`id和id.pub`, 从而导致一开始就没有进行github认证成功
 
