@@ -112,4 +112,4 @@ summaryLength = 140
 ## 链接配置示例
 # https://gohugo.io/content-management/urls/#permalinks
 [permalinks]
-  post = "/:year/:month/:title/"
+  post = "/:year/:month/:day/:title/"

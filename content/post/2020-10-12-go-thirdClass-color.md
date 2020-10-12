@@ -11,19 +11,19 @@ GO浪第三方库: github.com/fatih/color
 <!--more-->
 
 
-# 序
+## 序
 今天在看TIUP的时候, 发现了这个玩意, 简单记录下, 不喜勿喷哦
 
 它通过ANSI转译码输出相关彩色文字
 
-# 安装
+## 安装
 
 ```shell
 go get github.com/fatih/color
 
 ```
 
-# 分析
+## 分析
 
 ```go
 package main
@@ -179,7 +179,7 @@ func (c *Color) SprintfFunc() func(format string, a ...interface{}) string {
 1. 这个应该是一个闭包, 不过这个是一个特殊的闭包
 2. Redstring 最终拿到的字符串为: \x1b[31mxxxxxxx\x1b[0m
 
-# 总结
+## 总结
 
 ```shell
 1.闭包的用法
@@ -188,7 +188,7 @@ func (c *Color) SprintfFunc() func(format string, a ...interface{}) string {
 4.int转string: strconv.Itoa(<int>)
 ```
 
-## 简单使用
+### 简单使用
 
 ```go
 package main
