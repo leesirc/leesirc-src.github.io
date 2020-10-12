@@ -50,6 +50,11 @@ summaryLength = 140
   name = "飞雪无情的博客"
   url = "https://www.flysnow.org/"
 
+[[params.links]]
+  title = "小小小同的博客"
+  name = "小小小同的博客"
+  url = "https://blog.timbby.top/"  
+
 
 ## 侧边栏广告位
 # [[params.ads]]
@@ -112,4 +117,5 @@ summaryLength = 140
 ## 链接配置示例
 # https://gohugo.io/content-management/urls/#permalinks
 [permalinks]
-  post = "/:year/:month/:day/:title/"
+  post = "/:sections/:filename"
+  # post = "/:year/:month/:day/:filename/"

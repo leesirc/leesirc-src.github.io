@@ -1,6 +1,6 @@
 +++
 title="GO浪知识点小记 | 闭包"
-tags=["GO浪知识点小记"]
+tags=["golang-notes"]
 categories=["GO浪知识点小记"]
 date="2020-10-12T00:00:00+08:00"
 toc=true

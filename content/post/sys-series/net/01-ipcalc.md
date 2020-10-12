@@ -1,6 +1,6 @@
 +++
 title="子网掩码"
-tags=["网络"]
+tags=["net"]
 categories=["网络"]
 date="2020-10-11T12:00:00+08:00"
 toc=true
