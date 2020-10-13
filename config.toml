@@ -59,7 +59,15 @@ summaryLength = 140
 [[params.links]]
   title = "wayne的博客"
   name = "wayne的博客"
-  url = "https://wayne-beep.github.io/"  
+  url = "https://wayne-beep.github.io/" 
+
+[[params.links]]
+  title = "西红柿的博客"
+  name = "西虹市的博客"
+  url = "https://tomatoares.github.io/" 
+
+
+
 
 
 
