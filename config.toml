@@ -101,7 +101,7 @@ summaryLength = 140
 
 [params.image_cdn]
     enable = true
-    Host = "https://cdn.jsdelivr.net/gh/leesirc/leesirc.github.io"
+    Host = "https://cdn.jsdelivr.net/gh/leesirc/leesirc.github.io@master"
 
 ## 配置代码高亮
 # 我采用的是默认的, 若要开启行号参考下面配置
