@@ -129,4 +129,5 @@ git add . && git commit -m 'update site' && git push -v
 + https://corpython.github.io/
 + https://zhuanlan.zhihu.com/p/105021100?utm_source=weibo
 + http://www.flysnow.org/2018/07/29/from-hexo-to-hugo.html
++ http://wangtingkui.com/categories/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/
 + etc
