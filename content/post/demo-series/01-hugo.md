@@ -115,6 +115,12 @@ git add . && git commit -m 'update site' && git push -v
 
 ```
 
+## 5.总结
+```shell
+1. 此次分为3个仓库: 博客源码系统-private, 博客静态文件系统-public, 博客评论仓库-public
+2. 博客评论仓库采用的是utteranc评论, 默认会变成issue到博客评论仓库里
+```
+
 ## 参考链接
 
 + https://github.com/flysnow-org/maupassant-hugo

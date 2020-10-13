@@ -75,7 +75,7 @@ summaryLength = 140
 # https://nusr.github.io/post/2019/2019-05-04-utterances-introduce/
 [params.utteranc]
   enable = true
-  repo = "leesirc/leesirc-comment.github.io" ##换成自己得
+  repo = "leesirc/leesirc-comment.github.io" ##换成自己得, 命名方式为: <group>/<repo-name>
   issueTerm = "pathname"
   theme = "github-light"
 
