@@ -29,7 +29,7 @@ pip3 install bpytop --upgrade
 ```
 
 ## 效果图
-![img](/img/01_bpytop.jgp)
+![img](/img/01_bpytop.jpg)
 
 ## 参考链接
 
