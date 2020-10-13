@@ -2,12 +2,10 @@
 title="GO浪知识点小记 | new 与 make"
 tags=["golang-notes"]
 categories=["GO浪知识点小记"]
-date="2020-10-13T00:00:00+08:00"
+date="2020-10-13T08:00:00+08:00"
 toc=true
 +++
 
-
-<!--  -->
 new 与 make
 <!--more-->
 
@@ -71,6 +69,7 @@ b := make(map[string]int)
 
 // 通道
 c := make(chan int, 10)
+
 ```
 ## 总结
 new：为所有的类型分配内存，并初始化为零值，返回指针。
@@ -87,4 +86,7 @@ a := 1
 ```
 
 但是 make 就不一样了，它的地位无可替代，在使用slice、map以及channel的时候，还是要使用make进行初始化，然后才可以对他们进行操作。
+
+
+
 原文: http://golang.iswbm.com/en/latest/c02/c02_03.html

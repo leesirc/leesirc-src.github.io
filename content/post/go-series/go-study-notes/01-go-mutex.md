@@ -1,5 +1,5 @@
 +++
-title="GO浪知识点小记 | 闭包"
+title="GO浪知识点小记 | 互斥锁与读写锁"
 tags=["golang-notes"]
 categories=["GO浪知识点小记"]
 date="2020-10-12T00:00:00+08:00"
