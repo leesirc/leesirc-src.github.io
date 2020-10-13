@@ -88,5 +88,6 @@ a := 1
 但是 make 就不一样了，它的地位无可替代，在使用slice、map以及channel的时候，还是要使用make进行初始化，然后才可以对他们进行操作。
 
 
-
+***
+## 关于原文出处
 原文: http://golang.iswbm.com/en/latest/c02/c02_03.html

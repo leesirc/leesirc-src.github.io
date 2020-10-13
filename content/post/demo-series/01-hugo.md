@@ -65,6 +65,8 @@ git submodule add https://github.com/rujews/maupassant-hugo themes/maupassant
 https://github.com/flysnow-org/maupassant-hugo
 ```
 
+
+
 ### 2.3 发布文章
 
 ```shell
@@ -73,6 +75,46 @@ hugo new posts/demo.md
 
 # 本地测试, http://localhost:1313/
 hugo server -D
+```
+
+### 2.4 常用配置
+
+#### Front Matter
+markdown 文件开头的 --- 内的内容称为 Front Matter，用于文章生成的一些控制，Hugo 支持TOML、YAML、JSON格式的Front Matter，下面节选些常用的配置：
+```yaml
+
+---
+title: "文章标题"
+description: "文章的描述信息"
+# 建议对标签的理解为：文章所涉及到的技术、内容点，越多越好
+tags: [ "标签1", "标签2"]
+# 建议对目录的理解为：文章所属的系列，越少越好
+categories: [ "分类1", "分类2" ]
+# 关键词用于 HTML head 的 keyword
+keywords: [ "Hugo", "blog" ]
+date: 2019-01-01
+lastmod: 2019-1-1
+# CJKLanguage: Chinese, Japanese, Korean
+isCJKLanguage: true
+
+# 如果draft为true，除非使用 --buildDrafts 参数，否则不会发布文章
+draft: false
+
+# 设置文章的过期时间，已过期的文章不会发布，除非使用 --buildExpired 参数
+expiryDate: 2020-01-01
+
+# 设置文章的发布时间，未来的文章不会发布，除非使用 --buildFuture 参数
+publishDate: 2020-01-01
+
+# 文章排序权重
+weight: 40
+
+# 还有些有些第三方自定义的
+comment: true
+hiddenFromHomePage: false
+contentCopyright: true
+reward: false
+---
 ```
 
 ## 3.初始化github
