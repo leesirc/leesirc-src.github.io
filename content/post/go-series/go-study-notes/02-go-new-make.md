@@ -1,5 +1,5 @@
 +++
-title="GO浪知识点小记 | new 与 make"
+title="GO浪知识点小记 | new与make"
 tags=["golang-notes"]
 categories=["GO浪知识点小记"]
 date="2020-10-13T08:00:00+08:00"
